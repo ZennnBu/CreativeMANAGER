@@ -1,0 +1,35 @@
+
+name: WOWManager
+version: 1.0.0
+main: com.wowmanager.WOWManager
+api-version: '1.21'
+author: ZennnBu
+description: All-in-One SMP Management Plugin
+
+commands:
+  announcement:
+    description: Send a server announcement
+    usage: /announcement <message>
+    permission: wowmanager.admin
+
+  setspawn:
+    description: Set server spawn
+    permission: wowmanager.admin
+
+  spawn:
+    description: Teleport to server spawn
+
+  rank:
+    description: Manage server ranks
+    usage: /rank <create|delete|set|remove|list>
+    permission: wowmanager.admin
+
+  scoreboard:
+    description: Toggle or reload scoreboard
+    usage: /scoreboard [reload]
+
+permissions:
+  wowmanager.admin:
+    description: Access WOWManager admin commands
+    default: op
+    
