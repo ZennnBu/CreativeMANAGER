@@ -2,7 +2,7 @@
 name: WOWManager
 version: 1.0.0
 main: com.wowmanager.WOWManager
-api-version: '1.21'
+api-version: '26.2'
 author: ZennnBu
 description: All-in-One SMP Management Plugin
 
